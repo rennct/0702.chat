@@ -8,7 +8,7 @@ app.use(express.static('public'));
 
 io.on('connection',function(socket){
     socket.on('message',function(msg){
-        io.emit('message', msg);
+        io.emit('message', msg);hbgg
     });
 });
 
